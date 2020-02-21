@@ -1,0 +1,10 @@
+CREATE DATABASE db_contaBanco;
+USE db_contaBanco;
+
+CREATE TABLE Conta(
+numero INT UNIQUE NOT NULL,
+tipo INT NOT NULL,
+dono NVARCHAR(50) NOT NULL,
+saldo FLOAT NOT NULL,
+status INT NOT NULL
+);
